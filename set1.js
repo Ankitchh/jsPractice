@@ -75,11 +75,11 @@
 
 // 9. Create an array of 5 numbers and log the sum using .reduce().
 
-let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
 
-sum = arr.reduce((acc,val)=> 
-  acc + val,0
-);
+// sum = arr.reduce((acc,val)=> 
+//   acc + val,0
+// );
 
-console.log(sum);
+// console.log(sum);
 
