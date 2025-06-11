@@ -56,3 +56,45 @@
 
 // 17. Find the second largest number in an array. 
 
+
+// let arr = [1, 2, 3, 2, 4, 43, 3, 3, 546, 5, 6, 3, 6, 3, 56, 4, 56, 56, 46,56]
+
+// console.log([...new Set(arr)].sort(function (a,b) {
+//   return b-a
+// })[1])
+
+
+
+// 18. Sort an array in descending order.
+
+// let arr = [1, 2, 3, 2, 4, 43, 3, 3, 546, 5, 6, 3, 6, 3, 56, 4, 56, 56, 46, 56];
+
+// console.log(arr.sort((a,b)=> b-a));
+
+
+// 19. Reverse an array without using .reverse()
+
+
+// let arr = [1, 2, 3, 2, 4, 43, 3, 3, 546, 5, 6, 3, 6, 3, 56, 4, 56, 56, 46, 56];
+
+// let reversedArr = []
+// for (let i = arr.length - 1; i >= 0; i--){
+//   reversedArr.push(arr[i])
+// }
+
+// console.log(reversedArr);
+
+
+
+// 20. Find the most frequent element in an array.
+
+// let arr = [1, 2,2,2, 3,  4, 43, 3, 3, 546, 5, 6, 3, 6, 3, 56, 4, 56, 56, 46, 56];
+
+// let freq = {}
+
+
+// for (let i = 0; i <= arr.length - 1; i++){
+//   freq[arr[i]] === undefined ? freq[arr[i]] = 1 : freq[arr[i]] ++
+// }
+
+// console.log(freq);
