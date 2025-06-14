@@ -47,3 +47,27 @@
 
 // 4. Implement a function that limits how many times another function can be called (Closure + HOF)
 
+// function limiter(limit,func) {
+//   let called = 0
+//   return () => {
+//     if (called === 3) {
+//       return;
+//     } else {
+//       func();
+//       called++;
+//     }
+//  }
+// }
+
+// run = limiter(3, () => {
+//   console.log("Working");
+  
+// })
+
+// run()
+// run()
+// run()
+// run()
+// run()
+
+
